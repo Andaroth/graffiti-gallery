@@ -7,3 +7,5 @@ node_modules
 firebase.json
 .idea
 package-lock\.json
+
+polymer\.cmd
