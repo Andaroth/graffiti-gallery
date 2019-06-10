@@ -1,8 +1,8 @@
 {
-  "description": "Template Polymer 3.0 App",
+  "description": "Culture Graff",
   "manifest_version": 1,
-  "name": "Start Polymer 3.0",
-  "short_name": "StartP3",
+  "name": "Culture Graff",
+  "short_name": "CultGraff",
   "version": "0.1",
   "start_url": ".",
   "display": "fullscreen",

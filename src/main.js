@@ -12,16 +12,18 @@
 // polymer-element.js now exports PolymerElement instead of Element,
 // so no need to change the symbol. 
 import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
+import '@polymer/polymer/lib/elements/dom-if.js';
 
-class LazyElement extends PolymerElement {
+class CultureGraff extends PolymerElement {
   static get template () {
-    // Template getter must return an instance of HTMLTemplateElement.
-    // The html helper function makes this easy.
     return html`
-      <p>You like pie.</p>
+      <style>
+      </style>
+
+      <h1>Culture Graff</h1>
+      <p>hi</p>
     `;
   }
 }
 
-// Register the element with the browser.
-customElements.define('lazy-element', LazyElement);
+customElements.define('culture-graff', CultureGraff);
